@@ -1,0 +1,26 @@
+.social h1,
+.social h2 {
+    font-size: var(--size-8);
+    color: var(--color-grey-800);
+    text-align: center;
+}
+
+.social div {
+    text-align: center;
+}
+
+.social a {
+    padding: 10px 20px;
+    color: var(--color-grey-100);
+}
+
+.social a:hover {
+    color: var(--color-grey-800);
+}
+
+
+@media (min-width: 768px) {
+    .social h1 {
+      font-size: var(--size-16);
+    }
+}

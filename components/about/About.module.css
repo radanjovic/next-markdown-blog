@@ -1,0 +1,31 @@
+.about {
+    width: 95%;
+    max-width: 60rem;
+    margin: var(--size-8) auto;
+    font-size: var(--size-5);
+    line-height: var(--size-8);
+    background-color: var(--color-grey-100);
+    border-radius: 6px;
+    padding: var(--size-4);
+}
+
+.about h1 {
+    font-size: var(--size-8);
+    color: var(--color-grey-800);
+    text-align: center;
+}
+
+.about p {
+    color: var(--color-grey-800);
+    padding-inline: 15px;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .about {
+      padding: var(--size-8);
+    }
+    .about h1 {
+        font-size: var(--size-16);
+    }
+}
